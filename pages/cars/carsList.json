@@ -1,0 +1,62 @@
+[
+    {
+        "id":"someId",
+        "img" : "https://www.mahindraelectric.com/images/features/everiro-REVive-Feature.jpg?v=123",
+        "title":"Mahendra Electric eVerito D2",
+        "rating": 1,
+        "tags": ["D2","milage","latest"],
+        "description": [
+            "At just Rs. 1.15/km, eVerito beats almost all other cars on running costs.* *The cost is calculated with these figures: 18 units of electricity consumed at Rs. 7.00/unit, at a range of 110 km ",
+            "Zero-combustion model means fewer moving parts. That means less chances of parts failing and lower cost of maintainance. "
+        ],
+        "info": {
+            "model": "eVerito",
+            "variant": "D2"
+        },
+        "price": "not disclosed"
+    },
+    {
+        "img" : "https://www.mahindraelectric.com/images/features/Taxes.jpg?v=123",
+        "title":"Mahendra Electric e2O Plus P2",
+        "rating": 1,
+        "tags": ["P2","milage","latest"],
+        "description": [
+            "At just 80p/km, e2oPlus beats almost all other cars on running costs.**The cost of 80p/km is calculated with these figures: 16.5 units of electricity consumed at Rs 6.00/unit at a range of 140 km km for P6 variant  ",
+            "Self Employed and Businesses enjoy (40%) accelerated depreciation benefits — tax savings of up to Rs. 2.14 lakh in the first year itself. "
+        ],
+        "info": {
+            "model": "e2O plus",
+            "variant": "D6"
+        },
+        "price": "not disclosed"
+    },
+    {
+        "img" : "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Kona/Gallery/pc/Hyundai-Kona-Electric-Gallery-1.jpg",
+        "title":"Hyndai Kona Electric",
+        "rating": 1,
+        "tags": ["Automatic Premium","Kona"],
+        "description": [
+            "Versatile and powerful, the KONA Electric will be the first All-Electric SUV in India.",
+            "Its power packed performance provides a thrilling driving experience with high acceleration over long distances. KONA Electric is here to change the way people think about going electric."
+        ],
+        "info": {
+            "model": "e2O plus",
+            "variant": "Electric Electric Automatic Premium"
+        },
+        "price": "2,379,000"
+    },
+    {
+        "img" : "https://mg.co.uk/files/2020-07-27/MG-ZSEV-PressKit-076.jpg",
+        "title":"MG ZS EV",
+        "rating": 1,
+        "tags": ["Automatic","MG","ZS EV"],
+        "description": [
+            "MG ZS EV 2021 IS DESIGNED FOR THOSE WHO WANT ALL THE ADVANTAGES OF A ZERO EMISSION CAR WITHOUT COMPROMISING ON STYLE"
+        ],
+        "info": {
+            "model": "ZS EV",
+            "variant": "ZS EV EXCLUSIVE"
+        },
+        "price": "2,458,000"
+    }
+]

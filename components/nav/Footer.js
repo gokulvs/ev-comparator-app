@@ -1,40 +1,19 @@
 
+import {menu} from './header/menu';
+
 function Footer() {
     return (
             <footer className="footer bg-white pt-1 border-b-2 border-gray-200">
                 <section className="bg-white">
                     <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
                         <nav className="flex flex-wrap justify-center -mx-5 -my-2">
-                            <div className="px-5 py-2">
-                                <a href="#" className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                                    Evs
-                                </a>
-                            </div>
-                            <div className="px-5 py-2">
-                                <a href="#" className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                                    Bikes
-                                </a>
-                            </div>
-                            <div className="px-5 py-2">
-                                <a href="#" className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                                    Cars
-                                </a>
-                            </div>
-                            <div className="px-5 py-2">
-                                <a href="#" className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                                    Batteries
-                                </a>
-                            </div>
-                            <div className="px-5 py-2">
-                                <a href="#" className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                                    Parts
-                                </a>
-                            </div>
-                            <div className="px-5 py-2">
-                                <a href="#" className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                                    Expert Assistance
-                                </a>
-                            </div>
+                            {menu.map(({route,label}) => (
+                                <div className="px-5 py-2">
+                                    <a href={`${route}`} className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                                        <span>{label}</span>
+                                    </a>
+                                </div>
+                            ))}
                         </nav>
                         <div className="flex justify-center mt-8 space-x-6">
                             <a href="#" className="text-gray-400 hover:text-gray-500">

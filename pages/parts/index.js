@@ -9,7 +9,7 @@ export default function Home() {
     <Header/>
     <div className="container mx-auto app-container">
       <Head>
-        <title>ev-Comparator</title>
+        <title>ev-Comparator| Tata Electric cars</title>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       
       <main className="bg-light-gray">
-        <Main/>
+        parts
       </main>
 
     </div>

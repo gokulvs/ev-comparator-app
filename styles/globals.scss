@@ -1,10 +1,14 @@
 /* @import 'https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700'; */
 
+$primaryColor:rgba(240,138,93,.1);
+
 body{
   background: #FAFAFA;
 }
+.app-nav{
+  background: $primaryColor;
+}
 .app-container{
-
   .c-card {
     img {    
       transition: transform .3s ease-in-out; 
@@ -16,5 +20,10 @@ body{
       }
     }
   }
-  
+}
+.footer{
+  background: $primaryColor;
+  section{
+    background: $primaryColor;
+  }
 }
