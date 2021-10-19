@@ -30,7 +30,7 @@ const renderPrice = (price) => {
        
         <a href={`/pages/details/${item.id}`} className="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
             <div className="relative pb-48 overflow-hidden">
-                <Image layout="fill" src={item.img} alt={""}/>
+                <Image layout={'fill'} objectFit={'contain'} src={item.img} alt={""}/>
             </div>
             <div className="p-4">
                 {item.tags.map(tag => (<span className="inline-block bg-light-orange rounded-full px-3 py-1 text-sm font-semibold text-dark-orange mr-2">{tag}</span>))}

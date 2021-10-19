@@ -58,5 +58,42 @@
             "variant": "ZS EV EXCLUSIVE"
         },
         "price": "2,458,000"
+    },
+    {
+        "img" : "https://nexonev.tatamotors.com/wp-content/themes/tata-nexon/images/best-feature/bf-car-img.png",
+        "title":"Tata Nexon",
+        "rating": 1,
+        "tags": ["Automatic","MG","ZS EV"],
+        "description": [
+            "True power to power through. With a state-of-the-art 30.2 kW battery, experience a thrilling 0 - 100 km/h pickup within 9.9^",
+            "Best in class performance",
+            "Safest commute",
+            "Easy ownership",
+            "Top-Notch Connectivity"
+        ],
+        "info": {
+            "model": "XM",
+            "variant": "ZS EV EXCLUSIVE"
+        },
+        "price": "1399000"
+    },
+    {
+        "img" : "https://tigorev.tatamotors.com/wp-content/themes/limberev/images/range-car.png",
+        "title":"Tata Tigor EV",
+        "rating": 1,
+        "tags": ["Automatic","MG","ZS EV"],
+        "description": [
+            "True power to power through. With a state-of-the-art 30.2 kW battery, experience a thrilling 0 - 100 km/h pickup within 9.9^",
+            "Best in class performance",
+            "Safest commute",
+            "Easy ownership",
+            "Top-Notch Connectivity"
+        ],
+        "info": {
+            "model": "XM",
+            "variant": "ZS EV EXCLUSIVE"
+        },
+        "price": "1399000"
     }
+
 ]

@@ -54,11 +54,11 @@ export default function Header({ title }) {
     const renderItems = ({label,img}) => {
       return (
         <a href="#" className="ml-3 mb-1 p-2 text-center border-yellow-500 shadow bg-white flex-shrink md:flex-shrink-0">
-          <div class="w-24 min-h-full rounded overflow-hidden">
+          <div className="w-24 min-h-full rounded overflow-hidden">
               <Image className="w-full" width="100%" height="50px" src={img} alt={label}/>
             
-            <div class="px-1 py-1">
-              <div class="font-bold text-xs mb-1">{label}</div>
+            <div className="px-1 py-1">
+              <div className="font-bold text-xs mb-1">{label}</div>
             </div>
           </div>
         </a>
@@ -72,9 +72,9 @@ export default function Header({ title }) {
             {children && children.map(renderItems)}
             {children && 
             <a href="#">
-              <div class="w-24 h-10 rounded overflow-hidden text-center p-3 mt-6">
-                <div class="px-1 py-1">
-                  <div class="font-bold text-xs mb-1">More ... </div>
+              <div className="w-24 h-10 rounded overflow-hidden text-center p-3 mt-6">
+                <div className="px-1 py-1">
+                  <div className="font-bold text-xs mb-1">More ... </div>
                 </div>
               </div>
             </a>
